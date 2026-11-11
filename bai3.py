@@ -29,7 +29,7 @@ so_pixel = np.count_nonzero(~np.isnan(depth))
 print("c. So pixel co du lieu:", so_pixel, "/", KICH_THUOC * KICH_THUOC)
 
 plt.figure(figsize=(6, 5))
-plt.imshow(depth, cmap="viridis", origin="lower")
+plt.imshow(depth, cmap="magma", origin="lower")
 plt.colorbar(label="z - z_min")
 plt.xlabel("u (cot, theo X)")
 plt.ylabel("v (hang, theo Y)")

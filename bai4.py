@@ -50,7 +50,7 @@ for ax, depth, tieu_de in zip(
     (depth_truoc, depth_sau),
     (f"Truoc: {so_truoc} pixel", f"Sau: {so_sau} pixel (+{so_sau - so_truoc})"),
 ):
-    anh = ax.imshow(depth, cmap="viridis", origin="lower", vmin=vmin, vmax=vmax)
+    anh = ax.imshow(depth, cmap="magma", origin="lower", vmin=vmin, vmax=vmax)
     ax.set_title(tieu_de)
     ax.set_xlabel("u (cot, theo X)")
     ax.set_ylabel("v (hang, theo Y)")

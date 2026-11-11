@@ -17,7 +17,7 @@ print("   So diem sau khi loai trung :", diem.shape[0])
 # c. Ve dam may diem bang scatter 3D
 fig = plt.figure(figsize=(7, 6))
 ax = fig.add_subplot(projection="3d")
-ax.scatter(diem[:, 0], diem[:, 1], diem[:, 2], s=4, c="tab:blue")
+ax.scatter(diem[:, 0], diem[:, 1], diem[:, 2], s=4, c="#7C3AED")
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
 ax.set_zlabel("Z")
