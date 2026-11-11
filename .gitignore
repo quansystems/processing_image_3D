@@ -1,5 +1,6 @@
-# Only publish the Python source, README, and this Git configuration.
+# Publish Python source, the STL model, README, and this Git configuration.
 /*
 !/.gitignore
 !/README.md
 !/*.py
+!/ball.STL

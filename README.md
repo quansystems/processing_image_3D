@@ -20,7 +20,7 @@ Cần Python 3, NumPy và Matplotlib:
 python -m pip install numpy matplotlib
 ```
 
-Tự chuẩn bị mô hình STL và đặt tên **`ball.STL`** trong cùng thư mục với các file Python. File mô hình không được đưa lên repository. Các bài hiện đọc trực tiếp tên `ball.STL`, không nhận tham số dòng lệnh.
+Mô hình **`ball.STL`** đã có sẵn trong repository, cùng thư mục với các file Python. Các bài hiện đọc trực tiếp tên `ball.STL`, không nhận tham số dòng lệnh.
 
 Mở terminal tại thư mục chứa mã nguồn rồi chạy bài muốn xem:
 
@@ -33,4 +33,4 @@ python bai4.py
 
 Mỗi bài in kết quả ra terminal, lưu ảnh vào thư mục `output/` (được tạo tự động) và mở cửa sổ đồ thị. Đóng cửa sổ đồ thị để chương trình kết thúc.
 
-Repository chỉ lưu mã nguồn và README; mô hình STL, đề bài PDF, ảnh kết quả và bộ nhớ đệm Python không được đưa lên GitHub.
+Repository lưu mã nguồn, mô hình `ball.STL`, README và `.gitignore`; đề bài PDF, ảnh kết quả và bộ nhớ đệm Python không được đưa lên GitHub.
