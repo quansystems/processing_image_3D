@@ -1,0 +1,5 @@
+# Only publish the Python source, README, and this Git configuration.
+/*
+!/.gitignore
+!/README.md
+!/*.py
